@@ -1,0 +1,380 @@
+
+body{
+    width: 950px;
+    display: block;
+    margin:auto;
+    text-align:center;
+     background-image:url(../images/wall3.jpg) ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color: transparent;
+   
+}
+.cback{
+     width: 960px;
+    display: block;
+    margin:auto;
+     background-image: url(../images/wall3.jpg);
+     background-repeat:no-repeat;
+    background-size:cover;
+    background-color: transparent;
+    
+}
+.p-back{
+     width: 960px;
+    display: block;
+    margin:auto;
+     background-image: url();
+     background-repeat:no-repeat;
+    background-size:cover;
+    background-color: transparent;
+    
+}
+.apropos{
+   width: 960px;
+   display: block;
+    margin:auto;
+    background-image: url(../images/wall3.jpg);
+  text-align:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color: transparent;
+}
+
+header{
+    margin:0 auto;
+    padding:0;
+    background:#87CEFA ;
+    width:100%;
+    height:155px;
+}
+
+.img_logo{
+    padding-left:1em
+}
+
+.menu {padding:0 0 0 1em; margin:1em; list-style:none; height:43px; position:relative; background:transparent url(image/back.gif) repeat-x left top; font-size:11px;}
+.menu li {float:left; height:43px;}
+.menu li a {display:block; float:left; height:40px; line-height:35px; color:#888; text-decoration:none; font-family:arial, verdana, sans-serif; font-weight:bold; text-align:center; padding:0 0 0 10px; cursor:pointer; background:url(../images/0a.gif) no-repeat;}
+.menu li a b {float:left; display:block; padding:0 60px 0 0; background:url(../images/0.gif) no-repeat right top;}
+.menu li.destro a {color:#000; background:url(../images/2a.gif) no-repeat;}
+.menu li.destro a b {color:#000; background:url(../images/2.gif) no-repeat right top;}
+.menu li a:hover {color:#000; background: url(../images/2a.gif) no-repeat;}
+.menu li a:hover b {color:#000; background:url(../images/2.gif) no-repeat right top;}
+.menu li.destro a:hover {color:#000; cursor:default;}
+
+
+main{
+       
+    padding-top:1em;
+    margin:1.5px;
+    background-color:#FFFFFF;
+    padding-bottom:5px;
+  
+}
+
+.row {
+	width: 100%;
+}
+
+.col-offset-25 {
+	margin-left: 15%;
+}
+
+.col-50 	{  width:50%;   }
+.col-25   	{  width:25%;   }
+.col-33		{  width:33.33%;}
+
+.font0, .font1, .font3{
+    font-size:100px;
+    font-family:courier, fixed, monospace;
+   color:#4BB5C1;
+}
+
+
+.font1{
+      border-bottom: 6px;
+      border-bottom-style:groove;
+    border-bottom-color: red;
+    border-bottom-left-radius: 3em;
+     border-bottom-right-radius: 3em;
+  
+}
+.font2{
+    font-size:100px;
+    font-family:courier, fixed, monospace;
+
+}
+ .font3{
+    font-size:50px;
+    font-family:courier, fixed, monospace;
+   color:#4BB5C1;
+   padding:5px
+}
+.part-logo{
+    display:block;
+    text-align:center;
+    font-size:20px;
+    border-bottom: 2px;
+    border-bottom-style:groove;
+    
+}
+
+table,th,td {
+    border:solid;
+}
+.horaires{
+    margin:15px;
+    padding-bottom:10px;
+}
+#demo-col-34 .col-33 h2,#demo-col-33 .col-33 h2, #demo-col-34 .col-33 p
+#demo-col-33 .col-33 p{
+	width: 100%;
+	text-align: center;
+	
+}
+#demo-col-34 {clear:both}
+#demo-col-34 .col-33 h2,#demo-col-33 .col-33 h2 {
+	font-size: 3em;
+	font-weight: 400; 
+	margin-bottom: 0.4em; 
+}
+
+#demo-col-34 .col-33 p,#demo-col-33 .col-33 p {
+	font-size: 1.2em;
+}
+
+#demo-col-33 .pp:nth-child(1):hover{
+	background-color: #FFA07A;
+}
+
+#demo-col-33 .pp:nth-child(2):hover{
+	background-color: #DAF7A6  ;
+}
+
+#demo-col-33 .pp:nth-child(3):hover{
+	background-color: #72FAC4;
+}
+
+#demo-col-34 .pp:nth-child(1):hover{
+	background-color: #FFA07A;
+}
+
+#demo-col-34 .pp:nth-child(2):hover{
+	background-color: #DAF7A6  ;
+}
+
+#demo-col-34 .pp:nth-child(3):hover{
+	background-color: #72FAC4;
+}
+#space0, #space1, #space2{
+   padding-bottom:100px;
+   padding-top:100px
+  
+}
+
+demo .col-50 {
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+#demo .col-50,
+#demo .background{
+	height: 24em;
+	
+}
+#demo h2,
+#demo p {
+	padding:0 80px;
+	color:#e0e0e0;
+}
+
+#demo h2{
+	font-size: 2.5em;
+	margin-bottom: 1em;
+}
+
+#demo p{
+	font-size: 1.2em;
+}
+#demo h2,
+#demo p {
+	text-align: center;
+}
+
+#demo .background {
+	width: 100%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 1s;
+
+}
+
+#demo .background:hover{
+	transform: scale(1.2);
+	-webkit-transform: scale(1.1);
+}
+#demo .background {
+	background-image: url(../images/pi.jpg);
+}
+#demo .col-50{
+	background:  #070809;;
+}
+
+
+.col-33, .col-mobile-50, .col-mobile-25
+{
+	float: left;
+}
+
+#demo-col-34{clear:both;
+padding:10px;
+}
+.forma{
+    margin:0 auto;
+    clear:both
+}
+.col-mobile-100	{  float:left;  }
+
+@media screen and (max-width:860px){
+	.col-mobile-100	{  width:100%;  }
+	.col-mobile-50 	{  width:50%;   }
+	
+}
+#info{
+    font-size:20px;
+    display:block;
+    text-align:center;
+    padding-bottom:2em;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.font0{
+    border-bottom: 6px;
+      border-bottom-style:groove;
+    border-bottom-color: red;
+    border-bottom-left-radius: 3em;
+     border-bottom-right-radius: 3em;
+}
+
+form {
+    /* Pour le centrer dans la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 2px solid #CCC;
+    border-radius: 1em;
+    height:250px;
+    background-color:#AFEEEE;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* Afin de s'assurer que tous les champs textuels utilisent la même police
+       Par défaut, textarea utilise une police à espacement constant */
+    font: 1em sans-serif;
+
+    /* Pour donner la même dimension à tous les champs textuels */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+
+    /* Pour harmoniser l'apparence des bordures des champs textuels */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Afin de rehausser les éléments actifs */
+    border-color: #000;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 5em;
+
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs  */
+    resize: vertical;
+}
+
+button {
+    padding:5px 10px;/* Pour positionner les boutons de la même manière que les champs textuels */
+    /* même dimension que les étiquettes */
+    
+    
+   
+  }
+
+button {
+    /* Cette marge représente approximativement le même espace
+       que celui entre les étiquettes et les champs textuels */
+    margin-left: .5em;
+}
+button{
+    background:#98FB98;
+}
+label{
+    color:#4BB5C1
+}
+.col-33		{  width:33.33%;}
+
+.contact {
+        margin:0 auto;
+        background-color:#D6DBDF;  
+         width:250px;
+         
+         
+         }
+.space4{
+    margin:25px;
+}
+.space4 p{
+    font-size:18px;
+}
+footer{ 
+	clear:both;
+	position:relative; 
+	padding-bottom:4em; 
+	margin:0;
+	font-size: 0.8em;
+	width:100%;
+	background:none repeat scroll 0 0 #87CEFA; /*/#009036;-->*/
+}
+
+
+   
+   #pied{
+    margin:0;
+	width:100%;
+       padding-bottom:2em
+   }
+   #pied p {
+	text-align: center;
+	padding: 1em 0;
+	color: #555;
+	font-size:20px
+}
+
+.footer_copyrights{
+	float:right;
+	padding:0 13px 0 10px;/*22px 0 0 10px;*/
+	margin:0;
+	font-size:0.9em;
+}
+

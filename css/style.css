@@ -1,0 +1,232 @@
+ body {
+ width: 950px;
+ display: block;
+ margin:auto;
+ 
+  padding-left: 0em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #0C0D0F;
+  background-image:url(../images/wall3.jpg) ;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:scroll;
+  background-color: transparent;  /*#FFFFE0;*/ 
+  }
+
+.menu { padding:0 0 0 1em; margin:0; list-style:none; height:43px; position:relative; background:transparent url() repeat-x left top; font-size:11px;}
+.menu li {float:left; height:43px; }
+.menu li a {display:block; float:left; height:40px; line-height:35px; color:#888; text-decoration:none; font-family:arial, verdana, sans-serif; font-weight:bold; text-align:center; padding:0 0 0 10px; cursor:pointer; background:url(../images/0a.gif) no-repeat;}
+.menu li a b {float:left; display:block; padding:0 60px 0 0; background:url(../images/0.gif) no-repeat right top;}
+.menu li.destro a {color:#000; background:url(../images/2a.gif) no-repeat;}
+.menu li.destro a b {color:#000; background:url(../images/2.gif) no-repeat right top;}
+.menu li a:hover {color:#000; background: url(../images/2a.gif) no-repeat;}
+.menu li a:hover b {color:#000; background:url(../images/2.gif) no-repeat right top;}
+.menu li.destro a:hover {color:#000; cursor:default;}
+
+.space5{ 
+         padding-left:16px;
+         }
+
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+
+
+header{
+    margin:0 auto ;
+    padding:0;
+    background:#87CEFA /*#009036;*/
+    
+}
+
+
+#navi #search{
+background-color: #87CEFA;
+border-style: solid;   /* Style de la bordure */
+border-width: 1px;   /* Epaisseur de la bordure */
+border-color: #ffffff;   /* Couleur de la bordure */
+padding: 5px 5px 5px 5px; 
+
+}
+#b1{
+    width:900px;
+    margin:0 auto;
+    height:150px;
+    position:relative;
+   
+}
+
+#title
+{
+	float: right;
+	margin: 0;
+	padding: 10px 0 0 10px;
+	width: 700px;
+	height:100px;
+	/*height:150px;*/
+}
+#titre h1
+{
+	text-align: right;
+	padding: 5px 0 0 30px;
+	letter-spacing: 0.32em;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	color: #FFF;
+	font-weight: normal;
+	text-shadow: 2px 1px 0 #000;
+	margin:-1em;
+	padding-bottom:100px;
+}
+
+main{
+    
+    
+    background-color:#DCDCDC;   /*#FFFFE0;*/
+    background-size:cover;
+}
+.row {
+	width: 100%;
+}
+.col-50 	{  width:50%;   }
+
+
+.col-mobile-100, .col-50{
+    float:right
+}
+
+.container{
+   margin: 10px;
+   padding:10px
+}    
+
+
+
+.part1{
+	display: block;
+	margin: 0 0 50px 0;
+	padding: 20px;
+	
+}
+
+.colonne1{
+    
+	display: block;
+	margin: 0 0 20px 0;
+	
+	width: 280px;
+	background-color:#FFFFFF;
+	position:relative;
+}
+.colonne2{
+    
+	display: block;
+	margin: 0 0 20px 0;
+	width: 290px;
+	position:relative;
+	
+	
+}
+.colonne2:after{
+    clear:both;
+}
+h3 strong {
+    background: url(../images/arrows_accueil.png) no-repeat scroll 98% 50% #87CEFA;
+    font-weight: normal;
+    left: -7px;
+    padding: 3px 12px 3px 8px;
+    position: absolute;
+    top: 10px;
+	border-radius: 0 6px 6px 0px #87CEFA;
+	
+}
+
+.titre_info{
+    margin:0;
+	background:#87CEFA	;
+	color:#FFF;
+	font-size: 14px;
+	font-weight: normal;
+	text-align:center;
+	border-radius:2px 2px 0 0;
+	box-shadow:-1px 5px 10px 1px rgba(200, 200, 200, 0.2),
+				 1px 5px 10px 1px rgba(220, 220, 220, 0.2);
+	
+	left:0;
+    padding: 3px 12px 3px 8px;
+    position: relative;
+    top: 10px;
+}
+.me{
+    float:left;
+    width:3cm;
+    margin-top:2px;
+    padding:2px;
+    
+    
+}
+h3 {
+    background: none repeat scroll 0 0 #FAFAF7;
+    display: block;
+    margin-bottom: 0;
+	border:thin solid #87CEFA;
+}
+
+@media screen and (min-width:700px) and (max-width:2000px){
+    #corps{}
+    .main{}
+}
+
+
+/********* FOOTER **************/
+footer
+{ 
+	clear:both; 
+	height:65px; 
+	position:relative; 
+	padding:0; 
+	margin:0px 0 0 0;
+	font-size: 0.8em;
+	width:100%;
+	background:none repeat scroll 0 0 #87CEFA; /*/#009036;-->*/
+}
+
+.footer
+{
+	margin: 0 auto;
+	padding:20px 0 0 0;
+	width: 920px;
+	color:#fff;/* #837d7b;*/
+	/*clear:both;*/
+	
+	
+}
+
+.footer_copyrights{
+	float:right;
+	padding:0 0 0 10px;/*22px 0 0 10px;*/
+	margin:0;
+	font-size:0.9em;
+}
+
+.footer_1
+{
+	float:left;
+	padding:0 0 0 10px;
+	margin:0;/*15px 0 0 10px;*/
+	color:#fff;
+}
+
+.footer_1 a
+{
+	text-decoration:none;
+	padding:0 5px 0 5px;
+	font-size:0.8em;
+	margin:0;
+	color:#fff;
+}
+.footer_1 a:hover{
+	color:#333;
+}
+
+
